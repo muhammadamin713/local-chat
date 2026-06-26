@@ -1,3 +1,8 @@
+# This client has to be better. It's
+# blocking user from sending message if
+# the server isn't sending them anything
+# It's better to just use netcat
+
 import socket
 
 MAX_BUFFER_SIZE = 4096
